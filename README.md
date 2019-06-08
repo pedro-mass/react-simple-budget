@@ -13,7 +13,7 @@ Allows you to:
 ## todo
 
 - [x] basic controls
-- [ ] localStorage
+- [x] localStorage
 - [ ] Better Styling
 - [ ] deployment
 - [ ] multi-user

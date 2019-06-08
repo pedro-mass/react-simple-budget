@@ -1,5 +1,6 @@
 import NumberModal from "./components/NumberModal";
-import React, { useState } from "react";
+import React from "react";
+import useLocalStorage from "react-use-localstorage";
 
 const AddButton = props => <NumberModal {...props} title="Add" />;
 
@@ -8,7 +9,7 @@ const ExpenseButton = props => <NumberModal {...props} title="Expense" />;
 const ResetButton = props => <NumberModal {...props} title="Reset" />;
 
 function App() {
-  const [balance, setBalance] = useState(0);
+  const [balance, setBalance] = useLocalStorage("balance", 0);
 
   const increaseBalance = amount => setBalance(amount + balance);
   const decreaseBalance = amount => increaseBalance(-amount);
