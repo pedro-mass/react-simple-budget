@@ -26,6 +26,7 @@ export default function NumberModal({
     <>
       <Modal
         trigger={
+          // todo: make this button squared
           <Button onClick={openModal} {...props}>
             {title}
           </Button>
