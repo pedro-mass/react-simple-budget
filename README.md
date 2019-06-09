@@ -17,6 +17,7 @@ Allows you to:
 - [x] Better Styling
   - [ ] celebrate when getting more money (maybe throw confetti)
   - [ ] warn when going to negative
-- [ ] deployment
+  - [ ] add header/nav to allow for expansion/more-features
+- [x] deployment
 - [ ] multi-user
 - [ ] real data storage (not using localStorage)
