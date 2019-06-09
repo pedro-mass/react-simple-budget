@@ -6,18 +6,21 @@ import { Button, Header, Modal, Input } from "semantic-ui-react";
 export default function NumberModal({
   title,
   onValueSelected = () => {},
+  initialValue,
   ...props
 }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const openModal = () => setIsModalOpen(true);
   const closeModal = () => setIsModalOpen(false);
 
-  const [value, setValue] = useState(0);
+  const [value, setValue] = useState(Number(initialValue));
   const handleInput = e => setValue(e.target.value);
   const addValue = () => {
     onValueSelected(Number(value));
+    setValue(Number(initialValue));
     closeModal();
   };
+  const canSubmit = value !== undefined;
 
   const inputRef = useRef();
   const focusInput = () => inputRef.current && inputRef.current.focus();
@@ -50,10 +53,10 @@ export default function NumberModal({
         </Modal.Content>
         <Modal.Actions>
           {/* todo: center these actions */}
-          <Button onClick={closeModal} secondary inverted>
+          <Button onClick={closeModal} color="orange">
             Cancel
           </Button>
-          <Button onClick={addValue} primary inverted>
+          <Button onClick={addValue} primary disabled={!canSubmit}>
             Ok
           </Button>
         </Modal.Actions>

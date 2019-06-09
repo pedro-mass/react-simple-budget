@@ -14,7 +14,9 @@ Allows you to:
 
 - [x] basic controls
 - [x] localStorage
-- [ ] Better Styling
+- [x] Better Styling
+  - [ ] celebrate when getting more money (maybe throw confetti)
+  - [ ] warn when going to negative
 - [ ] deployment
 - [ ] multi-user
 - [ ] real data storage (not using localStorage)
