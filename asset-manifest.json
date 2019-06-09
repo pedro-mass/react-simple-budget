@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/react-simple-budget/static/css/main.7dae2f0c.chunk.css",
-    "main.js": "/react-simple-budget/static/js/main.f1b6dfa2.chunk.js",
-    "main.js.map": "/react-simple-budget/static/js/main.f1b6dfa2.chunk.js.map",
+    "main.css": "/react-simple-budget/static/css/main.e0cf8421.chunk.css",
+    "main.js": "/react-simple-budget/static/js/main.820bbf84.chunk.js",
+    "main.js.map": "/react-simple-budget/static/js/main.820bbf84.chunk.js.map",
     "runtime~main.js": "/react-simple-budget/static/js/runtime~main.3060f92b.js",
     "runtime~main.js.map": "/react-simple-budget/static/js/runtime~main.3060f92b.js.map",
     "static/css/2.75b1584d.chunk.css": "/react-simple-budget/static/css/2.75b1584d.chunk.css",
-    "static/js/2.fb4e3073.chunk.js": "/react-simple-budget/static/js/2.fb4e3073.chunk.js",
-    "static/js/2.fb4e3073.chunk.js.map": "/react-simple-budget/static/js/2.fb4e3073.chunk.js.map",
+    "static/js/2.4cf01a7b.chunk.js": "/react-simple-budget/static/js/2.4cf01a7b.chunk.js",
+    "static/js/2.4cf01a7b.chunk.js.map": "/react-simple-budget/static/js/2.4cf01a7b.chunk.js.map",
     "index.html": "/react-simple-budget/index.html",
-    "precache-manifest.e5fb894c8670f0c051b12546112a8dac.js": "/react-simple-budget/precache-manifest.e5fb894c8670f0c051b12546112a8dac.js",
+    "precache-manifest.bae6f6becc82bb7f7d125ea63d83bb42.js": "/react-simple-budget/precache-manifest.bae6f6becc82bb7f7d125ea63d83bb42.js",
     "service-worker.js": "/react-simple-budget/service-worker.js",
     "static/css/2.75b1584d.chunk.css.map": "/react-simple-budget/static/css/2.75b1584d.chunk.css.map",
-    "static/css/main.7dae2f0c.chunk.css.map": "/react-simple-budget/static/css/main.7dae2f0c.chunk.css.map",
+    "static/css/main.e0cf8421.chunk.css.map": "/react-simple-budget/static/css/main.e0cf8421.chunk.css.map",
     "static/media/semantic.min.css": "/react-simple-budget/static/media/outline-icons.ef60a4f6.woff"
   }
 }
