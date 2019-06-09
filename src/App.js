@@ -4,6 +4,7 @@ import useLocalStorage from "react-use-localstorage";
 import { ButtonGroup } from "semantic-ui-react";
 import classnames from "classnames";
 import ScaleText from "react-scale-text";
+import formatNumber from "comma-number";
 
 import "./App.scss";
 
@@ -43,7 +44,7 @@ function App() {
       >
         <p className="label">Balance:</p>
         <ScaleText widthOnly maxFontSize={100}>
-          <p className="value center">{balance}</p>
+          <p className="value center">{formatNumber(balance)}</p>
         </ScaleText>
       </div>
 
