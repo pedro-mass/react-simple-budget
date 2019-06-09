@@ -24,6 +24,7 @@ export default function NumberModal({
 
   const inputRef = useRef();
   const focusInput = () => inputRef.current && inputRef.current.focus();
+  const handleFocus = event => event.target.select();
 
   return (
     <>
@@ -48,6 +49,7 @@ export default function NumberModal({
             onChange={handleInput}
             fluid
             ref={inputRef}
+            onFocus={handleFocus}
           />
         </Modal.Content>
         <Modal.Actions className="center">
