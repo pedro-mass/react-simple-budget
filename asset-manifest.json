@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/react-simple-budget/static/css/main.2d54eaeb.chunk.css",
+    "main.js": "/react-simple-budget/static/js/main.49ba7876.chunk.js",
+    "main.js.map": "/react-simple-budget/static/js/main.49ba7876.chunk.js.map",
+    "runtime~main.js": "/react-simple-budget/static/js/runtime~main.3060f92b.js",
+    "runtime~main.js.map": "/react-simple-budget/static/js/runtime~main.3060f92b.js.map",
+    "static/css/2.75b1584d.chunk.css": "/react-simple-budget/static/css/2.75b1584d.chunk.css",
+    "static/js/2.fb4e3073.chunk.js": "/react-simple-budget/static/js/2.fb4e3073.chunk.js",
+    "static/js/2.fb4e3073.chunk.js.map": "/react-simple-budget/static/js/2.fb4e3073.chunk.js.map",
+    "index.html": "/react-simple-budget/index.html",
+    "precache-manifest.e8bdc7ebfcff3cc0723f648e55b3aaa0.js": "/react-simple-budget/precache-manifest.e8bdc7ebfcff3cc0723f648e55b3aaa0.js",
+    "service-worker.js": "/react-simple-budget/service-worker.js",
+    "static/css/2.75b1584d.chunk.css.map": "/react-simple-budget/static/css/2.75b1584d.chunk.css.map",
+    "static/css/main.2d54eaeb.chunk.css.map": "/react-simple-budget/static/css/main.2d54eaeb.chunk.css.map",
+    "static/media/semantic.min.css": "/react-simple-budget/static/media/outline-icons.ef60a4f6.woff"
+  }
+}
