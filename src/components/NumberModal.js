@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 import { Button, Header, Modal, Input } from "semantic-ui-react";
-// import Modal from "react-modal";
-// Modal.setAppElement("#root");
+
+import "./NumberModal.scss";
 
 export default function NumberModal({
   title,
@@ -20,7 +20,7 @@ export default function NumberModal({
     setValue(Number(initialValue));
     closeModal();
   };
-  const canSubmit = value !== undefined;
+  const canSubmit = value !== undefined && !isNaN(value);
 
   const inputRef = useRef();
   const focusInput = () => inputRef.current && inputRef.current.focus();
@@ -29,15 +29,14 @@ export default function NumberModal({
     <>
       <Modal
         trigger={
-          // todo: make this button squared
-          <Button onClick={openModal} {...props}>
+          <Button onClick={openModal} {...props} className="flat-button">
             {title}
           </Button>
         }
         open={isModalOpen}
         onClose={closeModal}
         basic
-        size="small"
+        size="mini"
         onMount={focusInput}
       >
         <Header content={title} textAlign="center" />
@@ -51,8 +50,7 @@ export default function NumberModal({
             ref={inputRef}
           />
         </Modal.Content>
-        <Modal.Actions>
-          {/* todo: center these actions */}
+        <Modal.Actions className="center">
           <Button onClick={closeModal} color="orange">
             Cancel
           </Button>
