@@ -1,6 +1,7 @@
 {
   "name": "react-simple-budget",
   "version": "0.1.0",
+  "homepage": "http://pedro-mass.github.io/react-simple-budget",
   "private": true,
   "dependencies": {
     "classnames": "^2.2.6",
