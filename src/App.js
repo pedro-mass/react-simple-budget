@@ -45,13 +45,13 @@ function App() {
         <p className="value">{balance}</p>
       </div>
 
-      <div className="flex-item">
+      <ButtonGroup className="flex-item">
         <ExpenseButtonModal
           onValueSelected={decreaseBalance}
           fluid
           className="max-height"
         />
-      </div>
+      </ButtonGroup>
     </div>
   );
 }
